@@ -12,24 +12,29 @@ from sklearn.pipeline import Pipeline
 from sklearn.metrics import mean_squared_error, r2_score
 from datetime import datetime
 
-def log_experiment(model_name, rmse, r2, runtime):
+def log_experiment(model_name, rmse, r2, runtime, tokens=0):
     log_file = 'experiments.md'
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    # Cost calculation: $1.25 per 1M tokens
+    cost = (tokens / 1_000_000) * 1.25
+    runtime_per_cost = runtime / cost if cost > 0 else 0
     
     # Check if file exists to add header
     if not os.path.exists(log_file):
         with open(log_file, 'w') as f:
             f.write("# Experiment Log\n\n")
-            f.write("| Timestamp | Model | RMSE | R² | Runtime (s) |\n")
-            f.write("|-----------|-------|------|----|-------------|\n")
+            f.write("| Timestamp | Model | RMSE | R² | Runtime (s) | Tokens | Cost ($) | Runtime/Cost |\n")
+            f.write("|-----------|-------|------|----|-------------|--------|----------|--------------|\n")
             
     with open(log_file, 'a') as f:
-        f.write(f"| {timestamp} | {model_name} | {rmse:.4f} | {r2:.4f} | {runtime:.4f} |\n")
+        f.write(f"| {timestamp} | {model_name} | {rmse:.4f} | {r2:.4f} | {runtime:.4f} | {tokens} | {cost:.6f} | {runtime_per_cost:.2f} |\n")
 
 def main():
     parser = argparse.ArgumentParser(description='Baseline Used Car Price Prediction')
     parser.add_argument('--data', type=str, required=True, help='Path to the input CSV file')
     parser.add_argument('--target', type=str, default='price', help='Target column name (default: price)')
+    parser.add_argument('--tokens', type=int, default=0, help='Number of tokens used (gen_ai.client.token.usage)')
     args = parser.parse_args()
 
     # Load data
@@ -100,7 +105,7 @@ def main():
     print(f"R²:   {r2:.4f}")
 
     # Log Experiment
-    log_experiment("Linear Regression Baseline", rmse, r2, runtime)
+    log_experiment("Linear Regression Baseline", rmse, r2, runtime, args.tokens)
     print("\nExperiment logged to experiments.md")
 
 if __name__ == "__main__":
