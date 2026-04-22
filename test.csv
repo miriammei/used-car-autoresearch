@@ -1,0 +1,501 @@
+Car ID,Brand,Year,Engine Size,Fuel Type,Transmission,Mileage,Condition,Price,Model
+1448,Honda,2010,3.0,Diesel,Manual,211864,Like New,17494.9,Fit
+1115,Tesla,2020,4.4,Hybrid,Manual,18781,Like New,75919.94,Model 3
+1065,Toyota,2013,4.3,Diesel,Manual,55547,Like New,87474.1,RAV4
+2288,Toyota,2006,3.0,Hybrid,Automatic,196914,Used,13522.58,Camry
+1538,BMW,2016,5.5,Petrol,Automatic,67764,Like New,77070.57,5 Series
+669,Ford,2020,4.3,Electric,Manual,255416,New,40085.49,Explorer
+1584,BMW,2018,4.6,Electric,Automatic,51921,Used,47196.4,X5
+2405,BMW,2015,1.3,Hybrid,Automatic,86067,Used,58558.94,5 Series
+498,BMW,2006,4.6,Electric,Automatic,239040,New,23029.74,5 Series
+2481,Audi,2010,2.3,Petrol,Manual,250481,New,32351.06,A4
+472,Audi,2008,1.3,Diesel,Manual,292192,New,64367.04,Q7
+247,Honda,2021,2.1,Hybrid,Manual,204300,Like New,81309.61,Civic
+924,Audi,2013,2.1,Diesel,Manual,168461,Used,94943.29,Q7
+1132,BMW,2002,4.1,Hybrid,Automatic,66483,Like New,48326.64,5 Series
+671,Ford,2020,4.8,Electric,Automatic,221281,Used,59325.43,Focus
+917,Audi,2014,5.1,Electric,Automatic,204222,Used,86181.92,Q7
+1415,Ford,2013,3.8,Electric,Manual,218115,Used,69007.44,Fiesta
+1607,BMW,2004,3.0,Petrol,Manual,126011,Like New,24628.15,3 Series
+403,Audi,2005,1.1,Petrol,Automatic,81147,New,6629.41,Q5
+1104,Ford,2008,5.9,Diesel,Manual,62157,Used,25504.49,Focus
+2073,Tesla,2015,3.9,Petrol,Manual,140926,Used,14460.92,Model 3
+720,Audi,2003,3.3,Hybrid,Automatic,213092,Used,50507.25,Q7
+2012,Mercedes,2016,3.1,Petrol,Automatic,152566,Used,93743.91,E-Class
+2437,Toyota,2006,2.6,Petrol,Automatic,39369,Used,72433.83,Camry
+197,BMW,2021,5.0,Diesel,Automatic,288065,Used,45968.35,X3
+892,Audi,2021,1.2,Petrol,Automatic,133021,Like New,40608.9,A3
+1265,BMW,2007,3.2,Hybrid,Manual,156844,Like New,84173.65,3 Series
+1035,Ford,2014,3.7,Hybrid,Automatic,156837,Like New,80722.3,Explorer
+1326,Mercedes,2012,1.2,Diesel,Automatic,269693,Used,74014.8,GLA
+510,BMW,2022,3.4,Diesel,Automatic,293271,Used,86049.42,5 Series
+1428,Tesla,2015,4.1,Hybrid,Manual,161860,New,89885.35,Model S
+195,Ford,2019,3.1,Diesel,Manual,286705,New,7753.16,Fiesta
+1180,Audi,2003,1.6,Electric,Automatic,259925,New,14406.85,Q7
+2033,Audi,2023,3.2,Diesel,Manual,196879,New,79194.62,Q5
+933,Honda,2016,3.9,Electric,Manual,197118,Like New,54681.04,CR-V
+1125,Mercedes,2015,3.5,Petrol,Manual,66266,Like New,50179.85,GLA
+1823,Tesla,2018,2.6,Petrol,Manual,93332,Like New,14467.85,Model X
+1367,Ford,2018,1.4,Electric,Automatic,98580,New,44767.67,Mustang
+1993,Audi,2008,5.7,Petrol,Automatic,255315,Like New,20207.19,Q5
+1259,Honda,2003,1.1,Hybrid,Manual,72828,New,56015.86,Civic
+2275,Tesla,2008,1.5,Petrol,Manual,156228,Like New,97999.47,Model 3
+1274,Audi,2014,1.2,Hybrid,Manual,20754,Like New,38371.45,A4
+1937,Mercedes,2002,5.3,Diesel,Manual,278744,Used,7424.77,C-Class
+1267,Ford,2022,2.9,Electric,Manual,122537,Like New,80076.86,Mustang
+773,BMW,2003,3.7,Petrol,Manual,33370,Used,26164.57,X5
+1609,BMW,2023,1.2,Hybrid,Manual,240660,New,16797.81,5 Series
+1312,Tesla,2018,3.5,Electric,Automatic,261757,Like New,77346.45,Model 3
+135,Audi,2011,2.0,Diesel,Manual,219973,New,48517.86,Q5
+1856,Audi,2011,5.4,Hybrid,Automatic,54604,Like New,18452.24,A4
+2400,Honda,2013,5.3,Petrol,Automatic,88771,Like New,81484.07,CR-V
+421,Toyota,2001,1.2,Hybrid,Manual,31655,New,71558.31,Camry
+1756,Honda,2020,3.0,Diesel,Manual,180903,New,6482.71,Civic
+708,Tesla,2014,5.7,Petrol,Manual,146075,New,98704.48,Model 3
+94,Honda,2010,1.1,Diesel,Automatic,108730,Like New,89772.15,CR-V
+57,Honda,2000,4.7,Diesel,Automatic,102566,Used,90321.17,CR-V
+219,Toyota,2023,2.9,Electric,Automatic,237778,New,26512.16,Prius
+1037,Ford,2015,2.5,Hybrid,Manual,38057,Like New,24625.97,Fiesta
+1294,Mercedes,2021,4.0,Petrol,Manual,143279,Used,60269.62,GLA
+1953,Toyota,2016,4.3,Electric,Automatic,290320,Used,82357.98,Camry
+1450,Mercedes,2003,5.5,Electric,Automatic,66896,New,26923.0,E-Class
+2360,Tesla,2002,2.2,Electric,Manual,21825,Like New,84320.65,Model Y
+1466,BMW,2010,2.5,Hybrid,Automatic,157998,Like New,57807.75,X5
+299,Ford,2007,2.6,Hybrid,Manual,259013,Used,86872.44,Focus
+2178,Toyota,2019,3.9,Electric,Automatic,154473,New,28769.68,Prius
+179,Toyota,2016,3.5,Petrol,Manual,262713,New,10116.9,Prius
+1188,BMW,2007,4.3,Hybrid,Manual,194188,Like New,17161.68,X3
+1473,Ford,2001,1.9,Diesel,Manual,161508,Like New,36890.94,Explorer
+189,Ford,2023,4.5,Electric,Manual,111174,Used,37801.08,Fiesta
+573,Audi,2018,2.2,Petrol,Automatic,176774,Like New,80568.22,Q5
+434,Ford,2008,5.0,Diesel,Manual,289324,Used,38249.76,Fiesta
+519,Ford,2020,3.3,Electric,Automatic,177043,Like New,47020.82,Fiesta
+2347,Ford,2012,1.2,Electric,Automatic,298325,New,95752.19,Fiesta
+2272,Tesla,2018,1.0,Diesel,Automatic,278496,New,8784.71,Model Y
+1085,Tesla,2002,4.6,Diesel,Automatic,6764,Like New,84071.65,Model Y
+1289,Audi,2003,2.1,Hybrid,Manual,188418,Used,35068.17,Q7
+1124,Honda,2022,5.4,Electric,Manual,261161,Like New,29726.9,Civic
+1342,Honda,2008,3.8,Electric,Manual,250476,Used,30899.9,Fit
+2257,Audi,2004,1.3,Electric,Automatic,244,Like New,90253.66,Q7
+1491,Toyota,2016,5.7,Hybrid,Manual,66151,New,40234.58,Camry
+44,Mercedes,2010,2.2,Diesel,Automatic,103235,Used,69968.98,C-Class
+1879,Mercedes,2003,4.1,Petrol,Manual,263552,New,82836.79,GLC
+451,Honda,2005,1.4,Petrol,Automatic,42039,New,80070.5,Fit
+2046,Honda,2023,4.5,Diesel,Manual,115814,Like New,16119.24,Civic
+45,Ford,2009,4.6,Hybrid,Manual,45510,Like New,6874.55,Explorer
+1284,Mercedes,2019,4.0,Hybrid,Automatic,85015,Used,34043.68,GLC
+1968,Ford,2006,2.9,Petrol,Manual,283539,Like New,26755.14,Explorer
+2091,Honda,2022,3.4,Diesel,Automatic,291749,Used,25092.59,Accord
+255,Audi,2008,4.8,Electric,Manual,39051,Used,94917.73,Q5
+1946,Audi,2003,4.2,Diesel,Manual,152185,New,44094.52,A3
+1875,Mercedes,2012,5.2,Electric,Manual,90073,Used,29285.99,C-Class
+1863,Toyota,2006,3.1,Petrol,Manual,236139,New,41926.32,Camry
+565,Honda,2021,3.3,Petrol,Automatic,253978,New,24184.13,CR-V
+213,Honda,2008,3.3,Petrol,Automatic,78343,Used,88375.69,Fit
+867,Mercedes,2002,2.5,Electric,Manual,20719,Like New,37577.37,GLC
+743,Toyota,2013,4.5,Diesel,Automatic,90815,New,60380.53,RAV4
+1252,Mercedes,2004,3.6,Electric,Manual,15419,Used,66064.36,GLA
+1048,Honda,2002,2.7,Electric,Automatic,212376,New,16453.63,Civic
+1737,Ford,2023,5.1,Petrol,Manual,81397,New,41227.01,Fiesta
+1018,Honda,2010,1.3,Electric,Manual,186168,Used,63257.91,Civic
+171,Tesla,2014,4.1,Hybrid,Manual,198937,Used,46918.36,Model S
+2097,Honda,2003,1.7,Hybrid,Automatic,227257,Used,24158.79,Accord
+2488,Audi,2021,4.6,Electric,Automatic,9466,Used,15126.76,A3
+2218,Audi,2019,4.5,Petrol,Automatic,89023,New,98042.59,Q7
+1798,Ford,2017,4.2,Electric,Automatic,80781,Like New,76960.24,Fiesta
+545,Honda,2009,2.9,Diesel,Automatic,272459,Used,49451.99,CR-V
+1222,Mercedes,2013,5.0,Diesel,Automatic,56238,Like New,92863.83,GLC
+464,Honda,2023,5.0,Petrol,Manual,168090,New,85700.41,Accord
+989,Tesla,2003,5.1,Petrol,Automatic,4861,Used,45422.54,Model S
+1322,Tesla,2012,1.2,Hybrid,Manual,290160,New,34564.51,Model 3
+603,Honda,2018,2.2,Diesel,Automatic,75010,New,43306.9,Fit
+1337,Tesla,2020,5.9,Hybrid,Manual,158693,Like New,42870.26,Model X
+2340,Mercedes,2020,3.2,Petrol,Manual,82641,Like New,69257.71,C-Class
+1261,Audi,2016,1.4,Petrol,Manual,55152,Used,10557.62,Q5
+2115,Tesla,2000,1.7,Hybrid,Automatic,229303,New,21792.22,Model 3
+808,Tesla,2022,3.1,Diesel,Manual,210154,Like New,92015.29,Model S
+887,Honda,2013,2.2,Electric,Automatic,43372,Like New,51667.68,Civic
+1583,Audi,2023,1.3,Electric,Manual,57732,New,94733.24,Q5
+1615,Mercedes,2016,5.7,Petrol,Automatic,204249,New,99754.42,E-Class
+1838,BMW,2022,1.8,Hybrid,Automatic,60155,New,65645.3,3 Series
+1874,Toyota,2008,3.2,Electric,Automatic,58235,Used,25490.2,Corolla
+283,Audi,2000,2.1,Petrol,Manual,209496,Like New,91080.62,Q7
+211,Mercedes,2021,2.7,Petrol,Automatic,91782,Like New,45333.32,E-Class
+112,Toyota,2005,4.4,Hybrid,Automatic,64829,Like New,91981.24,Camry
+1921,Audi,2011,4.7,Diesel,Manual,72847,Like New,22795.31,A3
+2166,Honda,2016,3.1,Electric,Manual,280412,Used,62695.84,Civic
+458,Tesla,2018,1.7,Petrol,Automatic,118998,New,52251.21,Model X
+820,Audi,2016,4.2,Diesel,Manual,205384,New,16479.84,Q7
+2185,Honda,2004,4.5,Diesel,Manual,154522,Used,57411.95,CR-V
+1656,BMW,2018,3.1,Diesel,Manual,290669,Like New,35034.32,X5
+253,Ford,2010,3.7,Electric,Automatic,128068,Used,60454.56,Explorer
+252,Honda,2006,4.9,Petrol,Manual,155223,Like New,84660.82,CR-V
+1540,Tesla,2015,1.9,Diesel,Manual,8888,Like New,82693.22,Model Y
+2130,Tesla,2009,1.3,Petrol,Automatic,997,New,87017.78,Model S
+1927,Honda,2004,1.3,Diesel,Automatic,216746,New,68817.96,CR-V
+1019,Audi,2018,1.7,Diesel,Automatic,221666,Used,43037.42,A3
+423,Audi,2000,1.4,Hybrid,Automatic,72219,Like New,9660.54,Q7
+1176,Tesla,2023,3.3,Petrol,Manual,295531,Like New,88851.63,Model X
+621,Ford,2016,1.3,Electric,Automatic,10567,Like New,35804.47,Mustang
+174,BMW,2015,3.1,Diesel,Automatic,70382,Used,60692.67,X3
+487,Ford,2019,1.7,Hybrid,Automatic,282187,Used,17194.26,Explorer
+1986,Tesla,2023,1.4,Petrol,Manual,89196,Used,73802.87,Model X
+1081,Ford,2003,4.6,Hybrid,Automatic,276379,New,16224.78,Fiesta
+1118,Honda,2001,4.2,Diesel,Automatic,31126,Used,27999.4,CR-V
+1358,Audi,2013,3.0,Petrol,Manual,73366,Like New,28598.53,Q7
+1042,Ford,2019,3.9,Petrol,Manual,101206,Used,22981.87,Focus
+1091,Tesla,2002,5.8,Diesel,Manual,16292,Used,99034.93,Model 3
+1356,Tesla,2012,4.6,Petrol,Manual,105474,Used,22498.67,Model S
+212,Ford,2008,5.0,Electric,Automatic,259896,Like New,84546.11,Focus
+614,BMW,2007,1.6,Petrol,Automatic,120601,New,37462.42,X5
+2150,Audi,2023,4.7,Diesel,Manual,155183,Used,49201.46,A3
+465,Toyota,2014,2.6,Diesel,Automatic,124078,New,95389.05,Camry
+1468,Audi,2021,3.9,Electric,Automatic,83360,New,27099.99,Q7
+555,Toyota,2015,2.1,Electric,Manual,169180,Like New,80754.7,Corolla
+908,Ford,2000,5.5,Diesel,Automatic,271372,New,99605.33,Focus
+994,BMW,2023,2.1,Diesel,Automatic,224402,Like New,23677.08,5 Series
+1969,Ford,2019,4.1,Hybrid,Manual,16738,Like New,24102.43,Fiesta
+1789,Honda,2017,1.7,Petrol,Automatic,90744,New,52113.9,Fit
+1599,BMW,2012,1.5,Electric,Manual,159245,Used,68349.45,3 Series
+97,BMW,2021,1.3,Electric,Manual,118319,Used,13072.13,5 Series
+1965,Honda,2020,3.8,Petrol,Automatic,125407,Used,54194.93,Civic
+1365,Ford,2007,3.4,Electric,Automatic,15739,Like New,97090.31,Focus
+1925,Honda,2013,2.7,Diesel,Automatic,167813,Like New,54110.32,Fit
+612,Ford,2015,3.0,Petrol,Manual,7232,New,65163.82,Fiesta
+446,Tesla,2011,5.1,Electric,Manual,88919,Used,56970.82,Model Y
+238,BMW,2014,2.8,Hybrid,Automatic,87695,New,48049.89,X3
+2311,BMW,2014,5.0,Petrol,Manual,185846,Like New,64720.06,3 Series
+874,Audi,2013,5.5,Petrol,Manual,122058,Used,16465.29,A4
+2498,Ford,2021,1.1,Hybrid,Manual,272827,Like New,29902.45,Fiesta
+2055,Audi,2004,1.3,Hybrid,Automatic,80974,Like New,79429.51,Q7
+1674,Audi,2015,1.6,Hybrid,Manual,117363,New,89147.36,A4
+2123,Honda,2021,2.7,Electric,Automatic,236028,Like New,51497.67,Fit
+840,Toyota,2010,2.5,Diesel,Automatic,110771,New,14003.23,Corolla
+582,Honda,2022,6.0,Hybrid,Manual,111581,Like New,60269.16,Accord
+1282,Ford,2018,4.2,Hybrid,Automatic,151174,New,98716.27,Explorer
+980,Tesla,2007,3.8,Diesel,Automatic,43147,Used,12619.73,Model S
+791,Audi,2017,3.0,Hybrid,Automatic,177059,Used,42066.22,Q5
+842,Mercedes,2021,2.6,Petrol,Manual,16065,Used,6846.34,GLA
+483,Honda,2016,5.0,Petrol,Automatic,71524,Like New,56401.45,Accord
+1911,Honda,2003,1.0,Hybrid,Automatic,118115,Like New,22364.91,CR-V
+622,Ford,2003,1.1,Petrol,Automatic,38379,Used,27396.55,Focus
+1503,Toyota,2003,3.5,Diesel,Automatic,214738,Used,95390.34,Camry
+333,Mercedes,2015,1.3,Petrol,Automatic,19346,New,8719.3,GLC
+479,Tesla,2003,1.4,Diesel,Automatic,21518,Like New,6498.57,Model X
+1495,Mercedes,2007,5.4,Hybrid,Automatic,138056,New,62923.78,C-Class
+508,BMW,2020,2.9,Diesel,Manual,235067,Used,21962.52,X3
+1451,Honda,2002,2.0,Petrol,Automatic,103431,Like New,80147.84,Accord
+2424,Honda,2013,4.8,Electric,Manual,66567,New,67990.12,CR-V
+644,Audi,2007,4.6,Diesel,Automatic,124786,Like New,44681.71,A4
+481,BMW,2006,2.5,Diesel,Manual,256346,Like New,88486.09,X3
+1456,Ford,2005,4.0,Electric,Manual,134997,Like New,87950.14,Fiesta
+2395,Honda,2021,1.3,Petrol,Manual,143949,Used,16610.1,Accord
+1012,BMW,2002,2.1,Diesel,Manual,270855,Used,94486.25,X3
+765,Toyota,2020,5.1,Diesel,Automatic,162475,Used,58064.48,Camry
+1290,Honda,2021,4.1,Hybrid,Manual,126372,New,96800.26,Civic
+1224,Tesla,2020,1.4,Electric,Manual,52055,Used,40780.79,Model 3
+1334,Audi,2000,3.6,Diesel,Manual,115042,New,55278.28,Q5
+618,Toyota,2014,3.8,Hybrid,Automatic,112406,Like New,91972.58,RAV4
+522,Audi,2004,2.0,Diesel,Automatic,242124,New,86583.65,A4
+583,Honda,2010,4.8,Diesel,Manual,7043,Used,35725.6,Accord
+1059,Honda,2004,4.4,Diesel,Automatic,237469,Used,60991.19,Fit
+1407,Honda,2001,4.3,Petrol,Manual,149102,New,26632.41,Accord
+297,BMW,2011,5.7,Hybrid,Automatic,229415,Like New,97666.64,5 Series
+2443,Tesla,2006,1.7,Diesel,Automatic,292899,New,71152.87,Model S
+1062,Honda,2004,1.0,Diesel,Automatic,77088,Used,88921.72,CR-V
+858,Honda,2020,1.1,Petrol,Manual,197190,Like New,31279.12,CR-V
+1693,Audi,2004,3.4,Petrol,Manual,272126,Like New,65767.89,A3
+408,Toyota,2013,5.0,Petrol,Automatic,114427,New,48889.95,Corolla
+1079,Toyota,2012,1.5,Hybrid,Manual,58499,Used,38775.86,Camry
+1084,Tesla,2004,1.0,Electric,Manual,158539,Used,56605.04,Model 3
+169,Toyota,2019,2.1,Electric,Automatic,287120,Used,73778.51,Corolla
+2181,Audi,2009,3.3,Diesel,Manual,83251,New,15372.95,A3
+240,Ford,2002,1.3,Hybrid,Automatic,138982,Used,95965.09,Fiesta
+2306,Honda,2021,4.9,Electric,Automatic,91788,Like New,88719.05,Civic
+1998,Audi,2022,1.2,Petrol,Automatic,257288,New,47839.71,Q5
+1902,Ford,2002,3.1,Petrol,Manual,149485,Used,55151.37,Focus
+1051,Audi,2017,1.7,Petrol,Manual,198768,Like New,59123.34,A4
+1913,Tesla,2010,5.9,Petrol,Automatic,298509,Like New,85032.51,Model 3
+1868,Mercedes,2017,2.8,Electric,Automatic,101982,New,30003.29,E-Class
+2096,Ford,2005,3.3,Petrol,Automatic,170715,New,61853.87,Mustang
+523,Honda,2012,5.8,Electric,Manual,227506,New,66921.01,CR-V
+1738,Ford,2014,3.7,Electric,Manual,17769,New,22600.48,Explorer
+2473,Toyota,2001,1.5,Electric,Manual,14407,Used,22705.09,Prius
+1848,Audi,2016,5.6,Electric,Automatic,139180,Like New,18856.62,A3
+2369,BMW,2018,2.1,Petrol,Manual,76289,New,53092.73,X5
+2250,Honda,2022,5.8,Diesel,Manual,109869,Like New,84076.61,Civic
+1884,Mercedes,2005,1.3,Petrol,Automatic,132290,New,84541.72,E-Class
+1512,Tesla,2012,4.2,Electric,Automatic,166797,New,50300.07,Model S
+1460,BMW,2002,5.6,Diesel,Automatic,172624,Like New,75066.13,5 Series
+1939,Tesla,2005,4.9,Petrol,Automatic,168767,Like New,83946.15,Model X
+1724,Honda,2005,5.8,Hybrid,Automatic,116894,New,58179.75,CR-V
+2026,Tesla,2010,1.6,Electric,Automatic,16473,Like New,71162.01,Model S
+1608,Ford,2016,5.4,Electric,Automatic,292248,Used,53339.88,Explorer
+1978,Toyota,2003,4.0,Petrol,Automatic,26014,Like New,72588.15,Corolla
+509,BMW,2009,2.0,Hybrid,Automatic,212373,Like New,5124.89,3 Series
+633,BMW,2007,4.1,Diesel,Automatic,55609,Used,89476.53,X3
+916,Toyota,2023,2.1,Hybrid,Manual,161298,Used,32686.71,RAV4
+260,Honda,2006,3.6,Petrol,Automatic,29873,Like New,5129.96,Civic
+1396,BMW,2018,1.7,Hybrid,Manual,89407,Like New,88842.18,3 Series
+2296,Tesla,2016,4.5,Diesel,Manual,152481,Used,97860.06,Model Y
+2322,Audi,2001,5.3,Diesel,Manual,234729,Used,71954.76,Q5
+803,Ford,2003,3.0,Hybrid,Manual,156629,Like New,43638.79,Focus
+1936,Audi,2002,2.7,Electric,Manual,275659,Used,40923.43,A3
+1197,Toyota,2018,4.3,Petrol,Automatic,240644,Used,40624.25,RAV4
+1945,Toyota,2010,3.7,Diesel,Manual,152802,Used,24070.77,Prius
+757,Honda,2003,2.0,Diesel,Manual,177696,Used,55861.19,Fit
+802,Toyota,2020,1.4,Electric,Manual,231832,Like New,62939.91,Camry
+234,Audi,2000,6.0,Diesel,Manual,68232,Like New,60799.03,A3
+1515,Mercedes,2021,4.9,Diesel,Automatic,278491,Used,74400.55,GLC
+941,Ford,2020,4.4,Petrol,Manual,55598,Like New,50456.63,Focus
+999,BMW,2019,1.6,Hybrid,Automatic,128165,New,90445.55,X3
+1103,Mercedes,2011,1.9,Diesel,Automatic,57207,Used,74842.47,GLA
+1464,Toyota,2022,2.0,Diesel,Manual,276109,Used,56034.53,Prius
+1877,Ford,2004,5.0,Hybrid,Automatic,295885,New,78011.12,Mustang
+1226,Audi,2008,5.5,Petrol,Manual,135467,New,7581.53,Q5
+325,BMW,2014,5.4,Petrol,Automatic,63083,Used,21701.94,X3
+1764,Tesla,2009,4.7,Hybrid,Manual,158502,Used,99794.46,Model 3
+1954,Ford,2007,3.2,Petrol,Manual,68879,New,76535.97,Mustang
+1378,Honda,2004,5.9,Hybrid,Manual,162776,New,81203.72,Fit
+101,Mercedes,2000,4.8,Petrol,Automatic,158818,Like New,54955.72,GLA
+2482,BMW,2022,1.7,Petrol,Automatic,28004,New,74883.99,3 Series
+1341,Mercedes,2021,2.9,Electric,Manual,64325,Used,16507.16,E-Class
+388,Mercedes,2021,1.8,Hybrid,Manual,51574,New,98278.34,GLA
+1955,Ford,2011,5.8,Petrol,Manual,67592,Like New,91804.89,Focus
+180,BMW,2012,3.1,Electric,Automatic,123425,New,11618.92,X5
+1695,Ford,2014,4.8,Diesel,Manual,70210,Like New,15725.81,Focus
+1663,Toyota,2022,1.6,Diesel,Automatic,129101,New,42611.56,RAV4
+1305,Toyota,2005,1.3,Diesel,Manual,272204,Like New,85220.19,Corolla
+928,Tesla,2004,3.2,Hybrid,Manual,24578,New,57879.27,Model 3
+1431,Ford,2016,2.3,Electric,Manual,102466,Like New,92518.57,Focus
+2269,Mercedes,2003,2.7,Hybrid,Manual,35568,Used,18375.99,E-Class
+142,Toyota,2013,4.1,Diesel,Manual,145871,New,27025.29,Prius
+369,Toyota,2012,2.1,Electric,Manual,254043,New,89048.83,RAV4
+2446,Ford,2013,4.5,Diesel,Manual,13672,Used,13746.65,Explorer
+1086,Tesla,2000,2.8,Electric,Automatic,221968,Like New,15601.56,Model Y
+368,BMW,2017,2.9,Diesel,Manual,1950,Like New,12413.03,X3
+1675,Toyota,2011,1.2,Electric,Manual,201484,Like New,45212.41,Prius
+1045,Audi,2001,1.3,Electric,Automatic,155002,Used,16289.72,Q5
+319,Tesla,2007,2.2,Petrol,Manual,242718,Like New,49233.78,Model X
+1539,Honda,2012,5.2,Hybrid,Automatic,239190,Like New,64459.23,CR-V
+248,BMW,2015,4.3,Electric,Automatic,290699,Like New,25447.11,3 Series
+322,Honda,2003,4.3,Hybrid,Automatic,85637,Like New,85770.04,Fit
+1834,Honda,2023,3.4,Hybrid,Manual,155927,Used,79597.99,Accord
+1840,Honda,2020,2.0,Electric,Manual,261140,New,47700.62,Civic
+1000,Mercedes,2013,5.9,Petrol,Automatic,230314,New,80127.96,GLA
+943,Audi,2009,1.2,Electric,Manual,33758,Used,51732.06,Q7
+1773,Toyota,2017,5.8,Diesel,Automatic,197241,Like New,50773.03,Corolla
+30,Audi,2017,1.5,Diesel,Automatic,207836,Like New,54201.18,A3
+1300,Tesla,2008,3.2,Electric,Manual,295863,Like New,25877.13,Model X
+1994,BMW,2001,5.6,Hybrid,Manual,289068,New,14281.89,3 Series
+1915,BMW,2012,4.3,Petrol,Manual,63471,Used,65653.36,3 Series
+696,Ford,2012,2.4,Diesel,Manual,111126,Used,41576.46,Focus
+2471,Audi,2002,3.6,Electric,Automatic,159141,New,48185.43,Q7
+2029,BMW,2016,5.2,Electric,Automatic,86623,Like New,37006.81,X3
+1601,Audi,2011,4.4,Electric,Automatic,103591,Used,70291.28,Q5
+2330,Audi,2006,3.3,Diesel,Manual,290749,New,19175.06,A3
+1232,Honda,2001,4.0,Diesel,Manual,27584,Like New,27404.42,Accord
+2174,BMW,2000,3.1,Hybrid,Manual,296753,Used,64720.38,3 Series
+1916,Ford,2016,5.2,Petrol,Automatic,57287,Used,94582.17,Focus
+1730,Toyota,2001,4.9,Petrol,Manual,17881,Like New,71976.64,Prius
+1707,Audi,2022,2.7,Electric,Manual,44406,New,99982.59,A3
+1704,Tesla,2002,3.0,Diesel,Manual,106683,Used,33334.43,Model X
+756,Ford,2014,2.6,Electric,Automatic,101350,Like New,46333.64,Fiesta
+1331,Mercedes,2007,1.8,Electric,Manual,33717,Used,41490.15,GLA
+354,Ford,2017,4.1,Diesel,Automatic,60110,Like New,65109.2,Focus
+209,BMW,2021,5.2,Petrol,Manual,260339,Like New,37814.92,X5
+2145,Toyota,2012,2.6,Diesel,Automatic,105312,Like New,36382.78,RAV4
+904,Tesla,2010,3.7,Hybrid,Automatic,276600,Like New,63091.68,Model X
+953,Honda,2006,3.1,Diesel,Automatic,74469,Like New,85848.51,CR-V
+1338,Toyota,2016,4.4,Hybrid,Automatic,12823,Like New,37221.49,RAV4
+1552,Tesla,2022,5.3,Electric,Manual,86153,New,32744.33,Model Y
+1568,Audi,2018,5.8,Electric,Automatic,81541,Used,52840.27,A4
+1944,Honda,2023,4.5,Hybrid,Manual,156547,New,80121.71,Fit
+486,Mercedes,2019,3.5,Electric,Manual,211321,Like New,75101.46,GLA
+1630,Mercedes,2014,3.5,Electric,Automatic,15748,New,42090.22,GLC
+2040,Honda,2017,1.5,Petrol,Automatic,76815,Used,96101.9,Fit
+200,Audi,2000,3.8,Diesel,Automatic,277045,Used,85719.15,Q5
+230,Mercedes,2017,1.4,Petrol,Automatic,295625,New,8382.5,GLC
+811,Toyota,2000,3.8,Diesel,Manual,225956,Like New,54881.07,Prius
+788,Mercedes,2023,1.4,Electric,Manual,57803,New,16248.15,E-Class
+411,Mercedes,2020,3.4,Hybrid,Manual,220782,Like New,48740.55,GLA
+630,BMW,2020,4.3,Petrol,Automatic,61032,Used,56022.56,X5
+1511,Ford,2010,5.9,Petrol,Automatic,287153,Like New,71710.27,Explorer
+663,Audi,2006,1.8,Electric,Manual,49262,New,67655.38,A4
+2143,Ford,2011,5.7,Hybrid,Automatic,30924,Used,69588.36,Fiesta
+1919,Tesla,2009,4.6,Electric,Manual,67384,New,56059.47,Model X
+2335,BMW,2012,5.8,Hybrid,Automatic,133997,New,95022.62,5 Series
+1270,BMW,2011,5.5,Electric,Automatic,284464,New,64543.81,X3
+70,Tesla,2000,4.7,Electric,Manual,221576,Like New,7690.81,Model X
+444,Tesla,2003,1.3,Petrol,Manual,98385,Used,91304.03,Model 3
+2148,BMW,2008,4.0,Electric,Manual,229602,Like New,6929.49,X3
+2242,Mercedes,2003,5.5,Electric,Manual,16997,Like New,49216.7,GLC
+1585,Honda,2004,3.4,Hybrid,Manual,117734,New,67848.63,Fit
+232,Toyota,2003,5.0,Hybrid,Automatic,252771,Like New,63473.31,Corolla
+441,Ford,2001,5.2,Petrol,Manual,190093,Used,5537.99,Mustang
+1628,Tesla,2023,5.4,Electric,Automatic,2016,New,22769.06,Model S
+1323,Audi,2019,1.9,Hybrid,Manual,150004,Like New,85753.79,A3
+1279,Audi,2021,5.0,Diesel,Manual,87081,New,11375.3,A4
+818,Audi,2012,5.7,Electric,Automatic,228495,Used,53199.72,Q7
+600,Honda,2018,1.8,Hybrid,Manual,67396,New,49480.67,Civic
+1057,Honda,2022,5.0,Electric,Manual,185102,Like New,66513.24,Accord
+415,Mercedes,2002,2.4,Petrol,Manual,246834,Like New,89084.97,GLA
+680,Toyota,2021,3.1,Electric,Automatic,163041,Used,70016.62,Prius
+1519,Mercedes,2017,3.0,Electric,Manual,67438,New,78235.35,GLC
+1117,BMW,2019,1.7,Hybrid,Manual,257506,Like New,64982.02,X5
+280,Toyota,2003,2.0,Hybrid,Manual,102201,Used,65718.75,Corolla
+1386,BMW,2014,5.0,Electric,Automatic,290277,Used,65624.73,3 Series
+409,BMW,2008,5.8,Electric,Manual,148063,New,6176.89,3 Series
+1092,Mercedes,2008,3.8,Diesel,Automatic,283083,Used,50813.9,GLC
+2283,Toyota,2013,4.7,Hybrid,Automatic,123225,New,6729.5,RAV4
+1217,Toyota,2016,3.8,Electric,Manual,149112,New,52648.59,RAV4
+2079,Audi,2005,4.2,Diesel,Manual,19455,New,69845.31,Q5
+499,Honda,2004,3.9,Hybrid,Automatic,278504,New,22752.86,CR-V
+1709,Honda,2001,1.0,Electric,Automatic,235994,New,83522.8,Fit
+2027,Ford,2010,1.2,Petrol,Automatic,128771,Like New,34429.06,Focus
+790,Audi,2001,3.8,Electric,Manual,56627,Used,18275.36,A3
+1071,Tesla,2013,4.3,Electric,Automatic,280141,Like New,9983.75,Model Y
+2266,Mercedes,2018,2.5,Hybrid,Manual,146123,Like New,78887.03,E-Class
+436,Toyota,2012,1.2,Diesel,Automatic,187435,New,94809.81,Camry
+2044,Tesla,2008,5.3,Petrol,Manual,185399,Like New,71775.43,Model Y
+1880,Mercedes,2001,4.7,Petrol,Automatic,42903,New,79561.1,GLA
+783,Ford,2004,3.1,Petrol,Automatic,181026,New,73066.54,Focus
+1477,Honda,2003,3.0,Electric,Manual,232321,Used,51937.67,Civic
+1832,Toyota,2022,5.6,Electric,Automatic,40910,New,19133.19,Prius
+1837,Honda,2014,5.6,Diesel,Manual,97204,Like New,94145.98,Fit
+150,Ford,2022,1.0,Petrol,Automatic,148346,Used,43415.6,Focus
+1195,Ford,2018,3.1,Diesel,Automatic,115064,Used,83299.28,Mustang
+2452,BMW,2023,4.2,Petrol,Manual,247795,New,7093.72,X3
+1242,Tesla,2011,4.9,Electric,Automatic,140987,New,68913.46,Model Y
+1056,BMW,2000,5.5,Electric,Manual,167644,Used,22159.58,X5
+1770,Mercedes,2019,3.1,Diesel,Manual,299854,New,64119.76,GLA
+1690,Ford,2002,4.9,Electric,Manual,249120,Like New,62570.96,Mustang
+2094,Mercedes,2021,1.2,Diesel,Automatic,267724,Like New,52767.6,E-Class
+2193,Honda,2003,2.0,Electric,Manual,222700,New,43573.25,Accord
+1930,Toyota,2001,2.6,Diesel,Automatic,43262,New,14767.92,RAV4
+164,Tesla,2001,4.0,Hybrid,Manual,125702,New,11485.26,Model Y
+439,Mercedes,2007,5.9,Diesel,Automatic,126599,Like New,66779.18,C-Class
+1026,Toyota,2007,5.6,Petrol,Automatic,124501,New,57566.7,RAV4
+1383,Honda,2014,3.1,Petrol,Manual,36051,Like New,47239.4,CR-V
+1979,Tesla,2014,3.4,Electric,Automatic,204071,New,19025.42,Model S
+830,Ford,2010,5.2,Hybrid,Automatic,17198,Like New,74744.26,Explorer
+655,Audi,2011,5.7,Petrol,Manual,289445,Like New,44060.29,Q5
+529,Tesla,2020,2.1,Diesel,Manual,140777,Like New,39962.04,Model Y
+1134,Ford,2019,2.0,Hybrid,Automatic,33525,New,56612.31,Focus
+50,Ford,2014,1.1,Electric,Automatic,111860,Used,13355.54,Explorer
+68,BMW,2005,4.1,Petrol,Manual,193596,Used,45952.79,X3
+2017,Ford,2012,2.0,Hybrid,Manual,132152,Used,64477.34,Mustang
+1371,Honda,2020,6.0,Hybrid,Manual,231436,Like New,18624.96,Accord
+2271,Honda,2005,5.5,Petrol,Automatic,255745,New,83758.57,Fit
+49,Toyota,2007,4.7,Petrol,Automatic,2881,Used,36278.13,Prius
+1335,Audi,2006,2.2,Hybrid,Manual,127922,Used,5947.24,A4
+1682,Honda,2002,5.0,Petrol,Manual,205355,Like New,7716.51,Civic
+839,Tesla,2012,3.6,Electric,Manual,271615,Used,54054.8,Model Y
+2163,BMW,2016,4.3,Diesel,Automatic,14892,Like New,55145.17,5 Series
+125,Toyota,2015,5.8,Diesel,Manual,20951,New,7865.33,Corolla
+611,BMW,2014,5.0,Petrol,Automatic,54645,Used,87879.25,5 Series
+1861,Audi,2021,4.7,Electric,Automatic,134273,Like New,7550.55,Q7
+2333,Tesla,2008,2.2,Hybrid,Automatic,199803,New,49283.41,Model 3
+1513,Honda,2003,5.7,Diesel,Automatic,281140,New,34662.28,Civic
+742,BMW,2013,1.3,Hybrid,Automatic,132698,New,86254.29,3 Series
+26,Toyota,2017,5.2,Electric,Automatic,18325,Used,70176.95,Camry
+2389,Honda,2019,2.8,Diesel,Manual,63308,Used,26383.71,CR-V
+1753,Toyota,2008,2.4,Electric,Manual,133909,Used,86019.28,Camry
+1534,BMW,2016,4.9,Diesel,Automatic,40647,New,74303.45,3 Series
+1816,BMW,2011,1.9,Hybrid,Automatic,88241,Like New,42899.09,X3
+1617,Mercedes,2018,4.9,Petrol,Automatic,201664,Like New,68739.2,GLA
+1455,Honda,2020,5.5,Petrol,Automatic,27738,Used,43577.25,CR-V
+566,Ford,2007,2.8,Electric,Automatic,144854,Like New,86621.37,Mustang
+846,Toyota,2012,5.9,Hybrid,Automatic,281298,Like New,81184.9,Camry
+2490,Honda,2011,4.7,Electric,Manual,57324,Like New,62534.36,Fit
+1457,Toyota,2011,5.1,Hybrid,Automatic,57153,New,8055.44,Corolla
+362,Honda,2019,3.9,Diesel,Manual,150033,Used,66595.44,Civic
+1566,Audi,2006,5.3,Electric,Manual,15,Used,41932.64,Q5
+2499,Audi,2002,4.5,Diesel,Manual,229164,Like New,46085.67,Q5
+2415,Mercedes,2011,3.2,Hybrid,Automatic,192476,Like New,96067.81,E-Class
+1835,Toyota,2022,1.6,Hybrid,Automatic,286425,Used,57204.66,Camry
+1785,Tesla,2011,4.9,Hybrid,Manual,78672,Used,39537.85,Model X
+431,Audi,2019,2.0,Hybrid,Manual,167229,Like New,70814.24,A3
+2310,Toyota,2019,2.7,Diesel,Manual,49966,New,58688.87,Camry
+638,Ford,2015,5.4,Diesel,Manual,219162,New,44438.73,Focus
+2188,Ford,2021,3.4,Electric,Manual,224321,New,50984.36,Fiesta
+652,Tesla,2019,2.3,Petrol,Automatic,249109,Like New,32914.51,Model S
+241,Mercedes,2011,2.8,Hybrid,Automatic,264837,Like New,78980.12,GLA
+694,Audi,2023,4.7,Electric,Automatic,12809,Like New,49436.04,Q5
+71,BMW,2008,3.6,Electric,Manual,219393,Like New,71051.5,5 Series
+2233,Mercedes,2002,4.9,Petrol,Automatic,209190,Used,89243.39,E-Class
+651,Toyota,2021,3.2,Diesel,Automatic,108654,New,79583.76,Camry
+2019,Audi,2010,4.8,Hybrid,Manual,22007,Used,96651.49,Q5
+74,Audi,2008,5.6,Hybrid,Automatic,129466,New,19379.29,A3
+1164,Mercedes,2016,3.8,Electric,Manual,139344,Like New,55309.95,C-Class
+351,Mercedes,2019,2.2,Diesel,Automatic,150494,Used,95889.12,GLC
+2290,BMW,2023,5.9,Diesel,Manual,6611,Like New,63555.14,3 Series
+2169,Toyota,2019,4.5,Hybrid,Manual,196599,Used,36370.17,Prius
+1099,Tesla,2010,2.2,Hybrid,Manual,291908,Like New,88299.14,Model X
+1447,Toyota,2021,3.8,Electric,Automatic,13919,Used,14728.06,Camry
+2329,Audi,2022,1.5,Petrol,Manual,4369,New,60358.76,Q7
+77,Mercedes,2008,2.3,Hybrid,Manual,143452,New,43144.04,GLC
+433,Toyota,2002,2.4,Petrol,Automatic,214772,Like New,97461.61,Prius
+2350,Audi,2016,2.6,Electric,Manual,79522,Used,80961.53,A3
+1293,Tesla,2002,1.3,Petrol,Automatic,104332,Like New,38857.38,Model X
+158,Tesla,2014,5.5,Petrol,Automatic,278846,Like New,8019.97,Model 3
+1799,Tesla,2021,2.8,Electric,Automatic,36527,New,30274.93,Model Y
+1406,Tesla,2006,2.8,Diesel,Automatic,149776,New,15955.31,Model S
+2051,Audi,2001,4.8,Electric,Automatic,13580,Like New,36871.76,A3
+136,Honda,2003,5.3,Electric,Automatic,25905,Used,80267.55,Accord
+2138,Tesla,2007,2.9,Electric,Manual,248505,Like New,14504.11,Model Y
+1929,Honda,2023,1.6,Hybrid,Manual,61768,Like New,15983.13,Fit
+1691,Honda,2000,3.3,Petrol,Manual,254322,Used,39136.84,Civic
+868,Tesla,2000,3.7,Petrol,Manual,49116,Like New,23395.18,Model 3
+1950,Honda,2022,2.6,Petrol,Automatic,298962,Used,31874.18,Civic
+52,Ford,2016,2.1,Hybrid,Automatic,139728,Used,39212.51,Mustang
+1901,Audi,2017,5.8,Electric,Manual,67593,Used,46044.85,Q5
+679,BMW,2010,4.3,Petrol,Manual,160811,Used,65282.26,X5
+1504,Audi,2016,4.4,Diesel,Automatic,208920,New,65541.58,A4
+290,Toyota,2008,2.9,Petrol,Automatic,290157,New,85485.54,Camry
+2248,Toyota,2023,3.3,Hybrid,Automatic,128131,Like New,35411.88,RAV4
+1421,Honda,2002,4.9,Electric,Manual,186764,Used,66900.0,Accord
+1603,Mercedes,2020,2.8,Hybrid,Manual,46229,Used,23879.98,C-Class
+533,Tesla,2003,1.7,Electric,Automatic,108007,Used,30196.61,Model X
+480,Tesla,2003,3.4,Electric,Automatic,23052,Used,83278.58,Model S
+1404,Toyota,2014,6.0,Electric,Automatic,81455,Like New,69490.41,Corolla
+1933,Ford,2003,3.0,Electric,Automatic,290375,Used,7669.66,Fiesta
+292,BMW,2003,4.3,Hybrid,Automatic,255069,Like New,92787.78,3 Series
+1722,Honda,2012,2.7,Diesel,Manual,26119,Like New,87866.14,Fit
+1069,Toyota,2011,4.6,Hybrid,Automatic,159487,New,20281.08,RAV4
+1024,Ford,2011,2.7,Electric,Manual,189878,Used,88740.1,Fiesta
+2180,Audi,2022,5.3,Diesel,Manual,151460,Used,59627.42,Q5
+2228,Ford,2003,1.7,Electric,Manual,171960,Used,16232.63,Explorer
+706,BMW,2006,4.7,Diesel,Manual,46665,Like New,75127.26,3 Series
+2035,Toyota,2014,3.9,Diesel,Manual,24220,Used,95135.69,RAV4
+407,Toyota,2019,5.2,Diesel,Manual,120787,New,40630.17,Corolla
+2100,Tesla,2001,1.7,Electric,Automatic,39015,New,95395.26,Model 3
+2024,Honda,2003,1.3,Electric,Automatic,265880,Like New,66780.72,Accord
+2409,Tesla,2017,2.6,Diesel,Automatic,129909,New,70585.87,Model 3
+979,Ford,2014,2.7,Electric,Manual,254599,New,30490.98,Focus
+1746,Honda,2022,3.6,Diesel,Automatic,265026,Like New,31996.91,Accord
+1881,Honda,2015,5.0,Electric,Automatic,215280,Like New,93301.59,Accord
+343,Ford,2021,3.1,Petrol,Automatic,260577,Used,78722.11,Mustang
+1991,Honda,2007,3.8,Electric,Manual,141056,New,30937.22,Accord
+2477,Tesla,2023,4.1,Electric,Automatic,83100,Like New,37331.49,Model X
+835,Toyota,2019,5.6,Diesel,Automatic,99855,Used,58518.19,Corolla
+1453,Honda,2022,5.3,Hybrid,Automatic,205338,New,26833.9,CR-V
+300,BMW,2005,2.3,Diesel,Manual,16116,Like New,93712.71,5 Series
+1989,Audi,2021,3.2,Petrol,Automatic,71028,Used,9583.19,A4
+2294,BMW,2020,2.1,Electric,Automatic,190191,New,18957.69,X3
+496,Mercedes,2021,3.1,Hybrid,Manual,137559,Used,33866.09,C-Class
+813,Mercedes,2019,3.5,Petrol,Automatic,101422,Like New,84542.54,GLA
+930,Audi,2022,3.0,Electric,Automatic,140668,New,70370.49,A3
+1058,Mercedes,2007,4.4,Petrol,Automatic,244533,Like New,17954.74,E-Class
+1638,Audi,2017,3.1,Diesel,Automatic,192949,New,89229.15,Q7
+2456,Audi,2007,3.3,Hybrid,Manual,3889,New,54765.09,Q7
+221,Toyota,2016,5.5,Diesel,Manual,61606,Used,59976.03,RAV4
+2487,Tesla,2008,5.2,Diesel,Automatic,14568,Like New,77359.25,Model 3
+1660,Mercedes,2012,5.2,Hybrid,Manual,226597,Used,26879.89,C-Class
+528,Toyota,2010,4.2,Petrol,Automatic,272409,Used,35238.25,RAV4
+1487,Mercedes,2002,3.3,Electric,Manual,34986,New,94112.67,C-Class
+2376,Honda,2000,5.8,Electric,Automatic,136421,Like New,18249.22,Fit
+1610,Honda,2019,5.8,Hybrid,Manual,299738,Like New,94121.24,CR-V
+597,Honda,2010,3.8,Electric,Automatic,201264,Used,72013.84,Civic
+85,Mercedes,2018,4.5,Petrol,Automatic,58480,Like New,84585.18,GLC
+2214,Audi,2009,3.4,Electric,Manual,253301,New,16960.31,Q5
