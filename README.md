@@ -24,7 +24,7 @@ The primary objective is to achieve a model performance where the **Root Mean Sq
 3. **Run the Baseline Model**
    Run the script by specifying your data file and the target column name:
    ```bash
-   python baseline.py --data car_data.csv --target price
+   python baseline.py --data car_price_prediction_.csv --target Price
    ```
    *Note: The script will automatically split the data and save `test.csv` to lock the test set for future iterations.*
 
