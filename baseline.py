@@ -47,10 +47,15 @@ def main():
             raise ValueError(f"Target column '{args.target}' not found in dataset. Columns: {list(df.columns)}")
 
     # Lock the Test Set
-    print("Splitting data into train and test sets (locking test.csv)...")
-    train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
-    train_df.to_csv('train.csv', index=False)
-    test_df.to_csv('test.csv', index=False)
+    if not os.path.exists('train.csv') or not os.path.exists('test.csv'):
+        print("Splitting data into train and test sets (locking train.csv and test.csv)...")
+        train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
+        train_df.to_csv('train.csv', index=False)
+        test_df.to_csv('test.csv', index=False)
+    else:
+        print("Using existing train.csv and test.csv...")
+        train_df = pd.read_csv('train.csv')
+        test_df = pd.read_csv('test.csv')
     
     X_train = train_df.drop(columns=[args.target])
     y_train = train_df[args.target]
