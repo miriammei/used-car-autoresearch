@@ -1,4 +1,7 @@
-from sklearn.linear_model import LinearRegression
+import os
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
+from sklearn.linear_model import Ridge, Lasso
+from xgboost import XGBRegressor
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
@@ -6,9 +9,11 @@ from sklearn.pipeline import Pipeline
 
 def build_model(X):
     """
-    Builds a scikit-learn compatible pipeline.
-    X is provided to help identify feature types if needed.
+    Builds a simple pipeline based on the BASE_MODEL environment variable.
+    Options: Ridge, Lasso, XGBoost, RandomForest, GradientBoosting
     """
+    model_type = os.getenv('BASE_MODEL', 'Ridge')
+    
     numeric_features = X.select_dtypes(include=['int64', 'float64']).columns.tolist()
     categorical_features = X.select_dtypes(include=['object', 'category']).columns.tolist()
 
@@ -28,9 +33,20 @@ def build_model(X):
             ('cat', categorical_transformer, categorical_features)
         ])
 
+    regressors = {
+        'Ridge': Ridge(),
+        'Lasso': Lasso(),
+        'XGBoost': XGBRegressor(random_state=42, n_jobs=-1),
+        'RandomForest': RandomForestRegressor(random_state=42, n_jobs=-1),
+        'GradientBoosting': GradientBoostingRegressor(random_state=42)
+    }
+
+    regressor = regressors.get(model_type, Ridge())
+    print(f"Building model with: {model_type}")
+
     model = Pipeline(steps=[
         ('preprocessor', preprocessor),
-        ('regressor', LinearRegression())
+        ('regressor', regressor)
     ])
     
     return model
