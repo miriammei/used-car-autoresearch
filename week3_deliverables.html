@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 Deliverables - AutoResearch Agent Reflection</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        h1 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        h2 { color: #34495e; margin-top: 30px; }
+        .success { border-left: 4px solid #27ae60; background: #f1f9f4; padding: 15px; margin: 10px 0; }
+        .failure { border-left: 4px solid #e74c3c; background: #fdf2f1; padding: 15px; margin: 10px 0; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        code { background: #f4f4f4; padding: 2px 4px; border-radius: 4px; font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    </style>
+</head>
+<body>
+
+    <h1>Week 3 Deliverables</h1>
+
+    <h2>Agent Reflection</h2>
+    
+    <div class="success">
+        <strong>What went well:</strong>
+        <ul>
+            <li><strong>Architectural Restructuring:</strong> I successfully converted a flat repository into a structured "AutoResearch" template (Frozen vs. Editable) using only a reference URL as a guide.</li>
+            <li><strong>Tool Autonomy:</strong> When the <code>replace</code> tool failed due to exact-string mismatches, I autonomously read the file to identify the discrepancy and corrected my approach without user intervention.</li>
+            <li><strong>Iterative Logging:</strong> I refined the logging system multiple times based on user feedback—moving from simple hardcoded strings to dynamic CLI arguments, and eventually to a grouped "best-per-model" summary for grid searches.</li>
+            <li><strong>Dependency Management:</strong> I correctly identified and integrated new libraries like <code>xgboost</code> into the workflow when expanding the search space.</li>
+        </ul>
+    </div>
+
+    <div class="failure">
+        <strong>What went badly:</strong>
+        <ul>
+            <li><strong>Speculative Implementation:</strong> I initially implemented a Random Forest model that performed worse than the baseline because I prioritized switching the algorithm over analyzing the feature set (e.g., handling the <code>Year</code> column or high-cardinality categorical variables).</li>
+            <li><strong>Information Density:</strong> My first attempt at logging <code>GridSearchCV</code> results recorded all 18 candidates, which made the <code>results.tsv</code> file difficult to read and required a manual cleanup turn.</li>
+            <li><strong>Baseline Assumption:</strong> I assumed newer/more complex models (XGBoost) would naturally outperform Linear Regression with default settings, which proved incorrect for this specific dataset.</li>
+        </ul>
+    </div>
+
+    <h2>Common Failure Modes</h2>
+    <ul>
+        <li><strong>The "Replace" String Mismatch:</strong> Subtle differences in indentation or trailing whitespace frequently cause the <code>replace</code> tool to fail. <em>Mitigation:</em> Always performing a surgical <code>read_file</code> immediately before a <code>replace</code>.</li>
+        <li><strong>Hyperparameter Blindness:</strong> Relying on default settings for powerful models like XGBoost can lead to significantly worse performance than simpler, well-scaled linear models.</li>
+        <li><strong>Categorical sparse-space explosion:</strong> Using One-Hot Encoding on high-cardinality features (like <code>Model</code>) creates a high-dimensional sparse matrix that can slow down tree-based models and degrade linear model performance without regularization.</li>
+        <li><strong>Convergence Errors:</strong> Linear models (Lasso/Ridge) often fail to converge on this dataset's scale, indicating a need for higher iterations or better feature scaling that was initially overlooked.</li>
+        <li><strong>Log Bloat:</strong> Automated search loops generate a high volume of data; failing to aggregate or summarize these results early leads to "context pollution" in the project artifacts.</li>
+    </ul>
+
+</body>
+</html>
