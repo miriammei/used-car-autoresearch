@@ -11,6 +11,8 @@ Achieve an RMSE < $5,263.80 (10% of the average price of $52,638.02).
 
 ### Experiments Summary
 - **Linear Regression**: RMSE 27,799.87. Standard baseline.
+- **Ridge**: RMSE 27,794.24. Linear model with L2 regularization; slightly better than basic OLS.
+- **Lasso**: RMSE 27,798.16. Linear model with L1 regularization; very similar to basic OLS.
 - **RandomForest**: RMSE 28,083.88. Surprisingly worse than Linear Regression with default settings.
 - **GradientBoosting**: RMSE 27,736.39. Best current performance.
 - **XGBoost**: RMSE 31,578.52. Significantly underperformed, likely needs tuning.
