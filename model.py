@@ -2,16 +2,16 @@ import os
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
-from sklearn.linear_model import Ridge, Lasso
+from sklearn.linear_model import Ridge, Lasso, HuberRegressor
 from xgboost import XGBRegressor
-from sklearn.preprocessing import StandardScaler, OneHotEncoder, FunctionTransformer
+from sklearn.preprocessing import StandardScaler, TargetEncoder, FunctionTransformer, OrdinalEncoder, RobustScaler
 from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
 def extract_features(df):
     """
-    Feature engineering: drop Car ID, calculate Car_Age from Year.
+    Feature engineering: drop Car ID, calculate Car_Age from Year, and Miles_Per_Year.
     """
     df = df.copy()
     if 'Car ID' in df.columns:
@@ -20,6 +20,10 @@ def extract_features(df):
         # Assuming current year is 2026 as per session context
         df['Car_Age'] = 2026 - df['Year']
         df = df.drop(columns=['Year'])
+    
+    if 'Mileage' in df.columns and 'Car_Age' in df.columns:
+        df['Miles_Per_Year'] = df['Mileage'] / (df['Car_Age'] + 1)
+        
     return df
 
 def build_model(X):
@@ -32,27 +36,39 @@ def build_model(X):
     # Discovery of features after transformation to pass to ColumnTransformer
     X_transformed = extract_features(X)
     numeric_features = X_transformed.select_dtypes(include=['int64', 'float64']).columns.tolist()
-    categorical_features = X_transformed.select_dtypes(include=['object', 'category']).columns.tolist()
+    
+    # Separate categorical features into ordinal and target encoded
+    all_categorical = X_transformed.select_dtypes(include=['object', 'category']).columns.tolist()
+    ordinal_features = ['Condition'] if 'Condition' in all_categorical else []
+    target_enc_features = [c for c in all_categorical if c != 'Condition']
 
     numeric_transformer = Pipeline(steps=[
         ('imputer', SimpleImputer(strategy='median')),
-        ('scaler', StandardScaler())
+        ('scaler', RobustScaler())
     ])
 
-    categorical_transformer = Pipeline(steps=[
+    # Ordinal mapping for Condition
+    ordinal_transformer = Pipeline(steps=[
         ('imputer', SimpleImputer(strategy='most_frequent')),
-        ('onehot', OneHotEncoder(handle_unknown='ignore'))
+        ('ordinal', OrdinalEncoder(categories=[['Used', 'Like New', 'New']], handle_unknown='use_encoded_value', unknown_value=-1))
+    ])
+
+    target_transformer = Pipeline(steps=[
+        ('imputer', SimpleImputer(strategy='most_frequent')),
+        ('target_enc', TargetEncoder())
     ])
 
     preprocessor = ColumnTransformer(
         transformers=[
             ('num', numeric_transformer, numeric_features),
-            ('cat', categorical_transformer, categorical_features)
+            ('ord', ordinal_transformer, ordinal_features),
+            ('target', target_transformer, target_enc_features)
         ])
 
     regressors = {
         'Ridge': Ridge(),
         'Lasso': Lasso(),
+        'Huber': HuberRegressor(),
         'XGBoost': XGBRegressor(random_state=42, n_jobs=-1),
         'RandomForest': RandomForestRegressor(random_state=42, n_jobs=-1),
         'GradientBoosting': GradientBoostingRegressor(random_state=42)
@@ -67,6 +83,6 @@ def build_model(X):
         ('regressor', regressor)
     ])
     
-    print(f"Building model with: {model_type} (Feature Eng Only)")
+    print(f"Building model with: {model_type} (Robust Preprocessing)")
 
     return model

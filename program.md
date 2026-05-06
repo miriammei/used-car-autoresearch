@@ -17,9 +17,11 @@ Minimize **RMSE** on the used car price regression task.
 3. Edit model.py
 4. Run: python run.py
 5. Check RMSE in output
-6. If improved: keep changes
-7. If worse: revert model.py
-8. Repeat from step 1
+6. Log findings in experiment_log.md
+7. Verify entry in results.tsv
+8. If improved: keep changes
+9. If worse: revert model.py
+10. Repeat from step 1
 ```
 
 ## Ideas to explore
@@ -34,3 +36,4 @@ Minimize **RMSE** on the used car price regression task.
 - Do not add new files or external dependencies without updating requirements.txt
 - Do not hard-code test data into the model
 - Do not change the function signature of `build_model(X)`
+- Do not forget to log all experimental outcomes in `experiment_log.md` and `results.tsv`
