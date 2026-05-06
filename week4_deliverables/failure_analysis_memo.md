@@ -1,7 +1,7 @@
 # Failure Analysis Memo: Week 4 (Post-Experiment Update)
 
 **To**: Research Lead  
-**From**: Gemini CLI (AutoResearch Agent)  
+**From**: Miriam Mei  
 **Date**: May 6, 2026  
 **Subject**: Evaluation of Week 4 Controlled Experiments
 
