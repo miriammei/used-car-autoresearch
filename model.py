@@ -1,21 +1,38 @@
 import os
+import numpy as np
+import pandas as pd
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.linear_model import Ridge, Lasso
 from xgboost import XGBRegressor
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.preprocessing import StandardScaler, OneHotEncoder, FunctionTransformer
 from sklearn.impute import SimpleImputer
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
+def extract_features(df):
+    """
+    Feature engineering: drop Car ID, calculate Car_Age from Year.
+    """
+    df = df.copy()
+    if 'Car ID' in df.columns:
+        df = df.drop(columns=['Car ID'])
+    if 'Year' in df.columns:
+        # Assuming current year is 2026 as per session context
+        df['Car_Age'] = 2026 - df['Year']
+        df = df.drop(columns=['Year'])
+    return df
+
 def build_model(X):
     """
-    Builds a simple pipeline based on the BASE_MODEL environment variable.
-    Options: Ridge, Lasso, XGBoost, RandomForest, GradientBoosting
+    Builds a pipeline with feature engineering, preprocessing, and a regressor.
+    The regressor is selected via the BASE_MODEL environment variable.
     """
     model_type = os.getenv('BASE_MODEL', 'Ridge')
     
-    numeric_features = X.select_dtypes(include=['int64', 'float64']).columns.tolist()
-    categorical_features = X.select_dtypes(include=['object', 'category']).columns.tolist()
+    # Discovery of features after transformation to pass to ColumnTransformer
+    X_transformed = extract_features(X)
+    numeric_features = X_transformed.select_dtypes(include=['int64', 'float64']).columns.tolist()
+    categorical_features = X_transformed.select_dtypes(include=['object', 'category']).columns.tolist()
 
     numeric_transformer = Pipeline(steps=[
         ('imputer', SimpleImputer(strategy='median')),
@@ -42,11 +59,14 @@ def build_model(X):
     }
 
     regressor = regressors.get(model_type, Ridge())
-    print(f"Building model with: {model_type}")
-
+    
+    # Main pipeline
     model = Pipeline(steps=[
+        ('feat_eng', FunctionTransformer(extract_features)),
         ('preprocessor', preprocessor),
         ('regressor', regressor)
     ])
     
+    print(f"Building model with: {model_type} (Feature Eng Only)")
+
     return model
