@@ -36,11 +36,12 @@ Achieve an RMSE < ,263.80 (10% of the average price of 2,638.02).
 ---
 
 ## Phase 4: Strategy for Improvement
-**Current Hypothesis**: 
-1. The model is struggling with high-cardinality features (`Brand`, `Model`). One-hot encoding is creating a sparse matrix that might be overfitting or failing to capture relationships.
-2. `Condition` is ordinal but being treated as nominal.
+**Status**: Completed
+**Key Finding**: Information density improvements (Target and Ordinal Encoding) provided the most significant gains, but the model remains far from the target RMSE. Robust scaling and Huber regression did not provide additional benefits over Ridge.
 
-**Next Steps**:
-1. [ ] **Target Encoding**: Use Target Encoding for `Model` and `Brand`.
-2. [ ] **Ordinal Encoding**: Apply `OrdinalEncoder` to `Condition` with a defined order.
-3. [ ] **Feature Selection**: Evaluate if some features are purely noise.
+### Experiments Summary
+- **EXP-01: Target Encoding**: RMSE 27,555.58.
+- **EXP-02: Ordinal Condition**: RMSE 27,439.67 (Best Result).
+- **EXP-03: Miles_Per_Year Interaction**: RMSE 27,446.01.
+- **EXP-04: Robust Scaling**: RMSE 27,458.92.
+- **EXP-05: Huber Regression**: RMSE 27,555.63.
