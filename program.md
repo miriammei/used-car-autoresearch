@@ -9,7 +9,6 @@ Minimize **RMSE** on the used car price regression task.
 3. `build_model(X)` must return an sklearn-compatible estimator (Pipeline preferred)
 4. Training + evaluation must complete in **under 60 seconds** on CPU
 5. No additional data sources or external downloads
-
 ## Workflow
 ```
 1. Read current model.py
@@ -21,6 +20,7 @@ Minimize **RMSE** on the used car price regression task.
    - results.tsv (tabular history)
    - experiment_log.md (narrative summary)
    - README.md (best result and gap to target)
+   - performance.png (visualization)
 7. If improved: keep changes
 8. If worse: revert model.py
 9. Repeat from step 1
@@ -39,3 +39,4 @@ Minimize **RMSE** on the used car price regression task.
 - Do not hard-code test data into the model
 - Do not change the function signature of `build_model(X)`
 - Do not forget to log all experimental outcomes in `experiment_log.md` and `results.tsv`
+
