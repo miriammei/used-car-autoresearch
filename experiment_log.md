@@ -1,7 +1,7 @@
 # AutoResearch Log: Used Car Price Prediction
 
 ## Research Goal
-Achieve an RMSE < ,263.80 (10% of the average price of 2,638.02).
+Achieve an RMSE < $5,263.80 (10% of the average price of $52,638.02).
 
 ---
 
@@ -45,3 +45,4 @@ Achieve an RMSE < ,263.80 (10% of the average price of 2,638.02).
 - **EXP-03: Miles_Per_Year Interaction**: RMSE 27,446.01.
 - **EXP-04: Robust Scaling**: RMSE 27,458.92.
 - **EXP-05: Huber Regression**: RMSE 27,555.63.
+- **Verification Run: Auto-logging test**: RMSE 27474.07

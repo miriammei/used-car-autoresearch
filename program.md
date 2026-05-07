@@ -15,13 +15,15 @@ Minimize **RMSE** on the used car price regression task.
 1. Read current model.py
 2. Propose a modification
 3. Edit model.py
-4. Run: python run.py
+4. Run: python run.py "Brief description of change"
 5. Check RMSE in output
-6. Log findings in experiment_log.md
-7. Verify entry in results.tsv
-8. If improved: keep changes
-9. If worse: revert model.py
-10. Repeat from step 1
+6. run.py automatically updates:
+   - results.tsv (tabular history)
+   - experiment_log.md (narrative summary)
+   - README.md (best result and gap to target)
+7. If improved: keep changes
+8. If worse: revert model.py
+9. Repeat from step 1
 ```
 
 ## Ideas to explore

@@ -4,9 +4,9 @@ This repository is set up for automated, iterative machine learning research to 
 
 ## Project Goal
 The primary objective is to minimize **RMSE**.
-- **Current Best RMSE**: $27,736.39 (GradientBoosting)
+- **Current Best RMSE**: $27,439.67 (EXP-02: Ordinal Condition (Ridge))
 - **Target RMSE**: < $5,263.80 (10% of average price)
-- **Gap to Target**: $22,472.59
+- **Gap to Target**: $22,175.87
 
 ## Baseline Comparison
 
